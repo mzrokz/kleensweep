@@ -1,1 +1,0 @@
-Here goes the pure html css js files
