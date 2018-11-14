@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>I:\Work\KleenSweep\Publishes\AspDotNetMvc</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ApplicationInsights.config">
+      <publishTime>10/19/2018 04:17:32</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>09/10/2013 16:29:20</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>09/10/2013 16:29:20</publishTime>
+    </File>
+    <File Include="bin/ApplicationInsights.config">
+      <publishTime>10/19/2018 04:17:32</publishTime>
+    </File>
+    <File Include="bin/KleenSweep.dll">
+      <publishTime>10/19/2018 04:34:01</publishTime>
+    </File>
+    <File Include="bin/KleenSweep.pdb">
+      <publishTime>10/19/2018 04:34:01</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
+      <publishTime>06/27/2017 12:59:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.DependencyCollector.dll">
+      <publishTime>02/22/2018 16:25:18</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
+      <publishTime>02/22/2018 16:36:44</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
+      <publishTime>02/22/2018 14:39:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Web.dll">
+      <publishTime>02/22/2018 16:35:08</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.WindowsServer.dll">
+      <publishTime>02/22/2018 16:36:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationInsights.dll">
+      <publishTime>02/22/2018 14:36:52</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.TelemetryCorrelation.dll">
+      <publishTime>06/28/2017 15:05:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 11:48:56</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>02/18/2018 09:44:54</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.AccessControl.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.AccessControl.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Claims.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Principal.Windows.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>07/19/2017 10:01:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>02/01/2018 12:16:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>02/11/2014 15:26:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>02/01/2018 12:16:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>01/23/2014 13:57:34</publishTime>
+    </File>
+    <File Include="Content/base.css">
+      <publishTime>10/19/2018 04:20:08</publishTime>
+    </File>
+    <File Include="Content/font-awesome/css/font-awesome.css">
+      <publishTime>10/19/2018 04:20:08</publishTime>
+    </File>
+    <File Include="Content/font-awesome/css/font-awesome.min.css">
+      <publishTime>10/19/2018 04:20:08</publishTime>
+    </File>
+    <File Include="Content/font-awesome/fonts/fontawesome-webfont.eot">
+      <publishTime>10/19/2018 04:20:08</publishTime>
+    </File>
+    <File Include="Content/font-awesome/fonts/fontawesome-webfont.svg">
+      <publishTime>10/19/2018 04:20:08</publishTime>
+    </File>
+    <File Include="Content/font-awesome/fonts/fontawesome-webfont.ttf">
+      <publishTime>10/19/2018 04:20:08</publishTime>
+    </File>
+    <File Include="Content/font-awesome/fonts/fontawesome-webfont.woff">
+      <publishTime>10/19/2018 04:20:08</publishTime>
+    </File>
+    <File Include="Content/font-awesome/fonts/fontawesome-webfont.woff2">
+      <publishTime>10/19/2018 04:20:08</publishTime>
+    </File>
+    <File Include="Content/font-awesome/fonts/FontAwesome.otf">
+      <publishTime>10/19/2018 04:20:08</publishTime>
+    </File>
+    <File Include="Content/fonts.css">
+      <publishTime>10/19/2018 04:20:08</publishTime>
+    </File>
+    <File Include="Content/images/avatars/Thumbs.db">
+      <publishTime>10/19/2018 04:20:57</publishTime>
+    </File>
+    <File Include="Content/images/avatars/user-01.jpg">
+      <publishTime>10/19/2018 04:20:57</publishTime>
+    </File>
+    <File Include="Content/images/avatars/user-02.jpg">
+      <publishTime>10/19/2018 04:20:57</publishTime>
+    </File>
+    <File Include="Content/images/avatars/user-03.jpg">
+      <publishTime>10/19/2018 04:20:57</publishTime>
+    </File>
+    <File Include="Content/images/avatars/user-04.jpg">
+      <publishTime>10/19/2018 04:20:57</publishTime>
+    </File>
+    <File Include="Content/images/avatars/user-05.jpg">
+      <publishTime>10/19/2018 04:20:57</publishTime>
+    </File>
+    <File Include="Content/images/clients/apple.png">
+      <publishTime>10/19/2018 04:20:57</publishTime>
+    </File>
+    <File Include="Content/images/clients/atom.png">
+      <publishTime>10/19/2018 04:20:57</publishTime>
+    </File>
+    <File Include="Content/images/clients/blackberry.png">
+      <publishTime>10/19/2018 04:20:57</publishTime>
+    </File>
+    <File Include="Content/images/clients/dropbox.png">
+      <publishTime>10/19/2018 04:20:57</publishTime>
+    </File>
+    <File Include="Content/images/clients/envato.png">
+      <publishTime>10/19/2018 04:20:57</publishTime>
+    </File>
+    <File Include="Content/images/clients/firefox.png">
+      <publishTime>10/19/2018 04:20:57</publishTime>
+    </File>
+    <File Include="Content/images/clients/joomla.png">
+      <publishTime>10/19/2018 04:20:57</publishTime>
+    </File>
+    <File Include="Content/images/clients/magento.png">
+      <publishTime>10/19/2018 04:20:57</publishTime>
+    </File>
+    <File Include="Content/images/clients/mozilla.png">
+      <publishTime>10/19/2018 04:20:57</publishTime>
+    </File>
+    <File Include="Content/images/clients/redhat.png">
+      <publishTime>10/19/2018 04:20:57</publishTime>
+    </File>
+    <File Include="Content/images/clients/Thumbs.db">
+      <publishTime>10/19/2018 04:20:57</publishTime>
+    </File>
+    <File Include="Content/images/clients/ubuntu.png">
+      <publishTime>10/19/2018 04:20:57</publishTime>
+    </File>
+    <File Include="Content/images/clients/wordpress.png">
+      <publishTime>10/19/2018 04:20:57</publishTime>
+    </File>
+    <File Include="Content/images/contact-bg.jpg">
+      <publishTime>10/19/2018 04:20:57</publishTime>
+    </File>
+    <File Include="Content/images/email-icon.png">
+      <publishTime>10/19/2018 04:20:57</publishTime>
+    </File>
+    <File Include="Content/images/hero-bg.jpg">
+      <publishTime>10/19/2018 04:20:57</publishTime>
+    </File>
+    <File Include="Content/images/left-arrow.png">
+      <publishTime>10/19/2018 04:20:57</publishTime>
+    </File>
+    <File Include="Content/images/photoswipe/default-skin.png">
+      <publishTime>10/19/2018 04:20:57</publishTime>
+    </File>
+    <File Include="Content/images/photoswipe/default-skin.svg">
+      <publishTime>10/19/2018 04:20:57</publishTime>
+    </File>
+    <File Include="Content/images/photoswipe/preloader.gif">
+      <publishTime>10/19/2018 04:20:57</publishTime>
+    </File>
+    <File Include="Content/images/photoswipe/Thumbs.db">
+      <publishTime>10/19/2018 04:20:57</publishTime>
+    </File>
+    <File Include="Content/images/portfolio/gallery/g-beetle.jpg">
+      <publishTime>10/19/2018 04:20:57</publishTime>
+    </File>
+    <File Include="Content/images/portfolio/gallery/g-grow-green.jpg">
+      <publishTime>10/19/2018 04:20:57</publishTime>
+    </File>
+    <File Include="Content/images/portfolio/gallery/g-guitarist.jpg">
+      <publishTime>10/19/2018 04:20:57</publishTime>
+    </File>
+    <File Include="Content/images/portfolio/gallery/g-palmeira.jpg">
+      <publishTime>10/19/2018 04:20:57</publishTime>
+    </File>
+    <File Include="Content/images/portfolio/gallery/g-shutterbug.jpg">
+      <publishTime>10/19/2018 04:20:57</publishTime>
+    </File>
+    <File Include="Content/images/portfolio/gallery/g-woodcraft.jpg">
+      <publishTime>10/19/2018 04:20:57</publishTime>
+    </File>
+    <File Include="Content/images/portfolio/gallery/Thumbs.db">
+      <publishTime>10/19/2018 04:20:57</publishTime>
+    </File>
+    <File Include="Content/images/portfolio/grow-green%402x.jpg">
+      <publishTime>10/19/2018 04:20:57</publishTime>
+    </File>
+    <File Include="Content/images/portfolio/grow-green.jpg">
+      <publishTime>10/19/2018 04:20:57</publishTime>
+    </File>
+    <File Include="Content/images/portfolio/guitarist%402x.jpg">
+      <publishTime>10/19/2018 04:20:57</publishTime>
+    </File>
+    <File Include="Content/images/portfolio/guitarist.jpg">
+      <publishTime>10/19/2018 04:20:57</publishTime>
+    </File>
+    <File Include="Content/images/portfolio/lady-shutterbug%402x.jpg">
+      <publishTime>10/19/2018 04:20:57</publishTime>
+    </File>
+    <File Include="Content/images/portfolio/lady-shutterbug.jpg">
+      <publishTime>10/19/2018 04:20:57</publishTime>
+    </File>
+    <File Include="Content/images/portfolio/palmeira%402x.jpg">
+      <publishTime>10/19/2018 04:20:57</publishTime>
+    </File>
+    <File Include="Content/images/portfolio/palmeira.jpg">
+      <publishTime>10/19/2018 04:20:57</publishTime>
+    </File>
+    <File Include="Content/images/portfolio/the-beetle%402x.jpg">
+      <publishTime>10/19/2018 04:20:58</publishTime>
+    </File>
+    <File Include="Content/images/portfolio/the-beetle.jpg">
+      <publishTime>10/19/2018 04:20:57</publishTime>
+    </File>
+    <File Include="Content/images/portfolio/Thumbs.db">
+      <publishTime>10/19/2018 04:20:58</publishTime>
+    </File>
+    <File Include="Content/images/portfolio/woodcraft%402x.jpg">
+      <publishTime>10/19/2018 04:20:58</publishTime>
+    </File>
+    <File Include="Content/images/portfolio/woodcraft.jpg">
+      <publishTime>10/19/2018 04:20:58</publishTime>
+    </File>
+    <File Include="Content/images/right-arrow.png">
+      <publishTime>10/19/2018 04:20:58</publishTime>
+    </File>
+    <File Include="Content/images/sample-image.jpg">
+      <publishTime>10/19/2018 04:20:58</publishTime>
+    </File>
+    <File Include="Content/images/Thumbs.db">
+      <publishTime>10/19/2018 04:20:58</publishTime>
+    </File>
+    <File Include="Content/images/wheel-1000.jpg">
+      <publishTime>10/19/2018 04:20:58</publishTime>
+    </File>
+    <File Include="Content/images/wheel-2000.jpg">
+      <publishTime>10/19/2018 04:20:58</publishTime>
+    </File>
+    <File Include="Content/images/wheel-500.jpg">
+      <publishTime>10/19/2018 04:20:58</publishTime>
+    </File>
+    <File Include="Content/images/your-logo.png">
+      <publishTime>10/19/2018 04:20:58</publishTime>
+    </File>
+    <File Include="Content/main.css">
+      <publishTime>10/19/2018 04:30:33</publishTime>
+    </File>
+    <File Include="Content/micons/fonts/icomoon.eot">
+      <publishTime>10/19/2018 04:20:07</publishTime>
+    </File>
+    <File Include="Content/micons/fonts/icomoon.svg">
+      <publishTime>10/19/2018 04:20:07</publishTime>
+    </File>
+    <File Include="Content/micons/fonts/icomoon.ttf">
+      <publishTime>10/19/2018 04:20:07</publishTime>
+    </File>
+    <File Include="Content/micons/fonts/icomoon.woff">
+      <publishTime>10/19/2018 04:20:07</publishTime>
+    </File>
+    <File Include="Content/micons/micons.css">
+      <publishTime>10/19/2018 04:20:07</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>10/19/2018 04:17:11</publishTime>
+    </File>
+    <File Include="Content/vendor.css">
+      <publishTime>10/19/2018 04:20:08</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>10/19/2018 04:17:11</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>10/19/2018 04:17:25</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>10/19/2018 04:17:25</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>10/19/2018 04:17:25</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>10/19/2018 04:17:25</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>10/19/2018 04:17:25</publishTime>
+    </File>
+    <File Include="fonts/lora/lora-bold-webfont.ttf">
+      <publishTime>10/19/2018 04:21:16</publishTime>
+    </File>
+    <File Include="fonts/lora/lora-bold-webfont.woff">
+      <publishTime>10/19/2018 04:21:16</publishTime>
+    </File>
+    <File Include="fonts/lora/lora-bold-webfont.woff2">
+      <publishTime>10/19/2018 04:21:16</publishTime>
+    </File>
+    <File Include="fonts/lora/lora-bolditalic-webfont.woff">
+      <publishTime>10/19/2018 04:21:16</publishTime>
+    </File>
+    <File Include="fonts/lora/lora-bolditalic-webfont.woff2">
+      <publishTime>10/19/2018 04:21:16</publishTime>
+    </File>
+    <File Include="fonts/lora/lora-italic-webfont.ttf">
+      <publishTime>10/19/2018 04:21:17</publishTime>
+    </File>
+    <File Include="fonts/lora/lora-italic-webfont.woff">
+      <publishTime>10/19/2018 04:21:17</publishTime>
+    </File>
+    <File Include="fonts/lora/lora-italic-webfont.woff2">
+      <publishTime>10/19/2018 04:21:17</publishTime>
+    </File>
+    <File Include="fonts/lora/lora-regular-webfont.woff">
+      <publishTime>10/19/2018 04:21:17</publishTime>
+    </File>
+    <File Include="fonts/lora/lora-regular-webfont.woff2">
+      <publishTime>10/19/2018 04:21:17</publishTime>
+    </File>
+    <File Include="fonts/montserrat/montserrat-black-webfont.woff">
+      <publishTime>10/19/2018 04:21:16</publishTime>
+    </File>
+    <File Include="fonts/montserrat/montserrat-black-webfont.woff2">
+      <publishTime>10/19/2018 04:21:16</publishTime>
+    </File>
+    <File Include="fonts/montserrat/montserrat-bold-webfont.woff">
+      <publishTime>10/19/2018 04:21:16</publishTime>
+    </File>
+    <File Include="fonts/montserrat/montserrat-bold-webfont.woff2">
+      <publishTime>10/19/2018 04:21:16</publishTime>
+    </File>
+    <File Include="fonts/montserrat/montserrat-extrabold-webfont.woff">
+      <publishTime>10/19/2018 04:21:16</publishTime>
+    </File>
+    <File Include="fonts/montserrat/montserrat-extrabold-webfont.woff2">
+      <publishTime>10/19/2018 04:21:16</publishTime>
+    </File>
+    <File Include="fonts/montserrat/montserrat-extralight-webfont.woff">
+      <publishTime>10/19/2018 04:21:16</publishTime>
+    </File>
+    <File Include="fonts/montserrat/montserrat-extralight-webfont.woff2">
+      <publishTime>10/19/2018 04:21:16</publishTime>
+    </File>
+    <File Include="fonts/montserrat/montserrat-light-webfont.woff">
+      <publishTime>10/19/2018 04:21:16</publishTime>
+    </File>
+    <File Include="fonts/montserrat/montserrat-light-webfont.woff2">
+      <publishTime>10/19/2018 04:21:16</publishTime>
+    </File>
+    <File Include="fonts/montserrat/montserrat-medium-webfont.woff">
+      <publishTime>10/19/2018 04:21:16</publishTime>
+    </File>
+    <File Include="fonts/montserrat/montserrat-medium-webfont.woff2">
+      <publishTime>10/19/2018 04:21:16</publishTime>
+    </File>
+    <File Include="fonts/montserrat/montserrat-regular-webfont.woff">
+      <publishTime>10/19/2018 04:21:16</publishTime>
+    </File>
+    <File Include="fonts/montserrat/montserrat-regular-webfont.woff2">
+      <publishTime>10/19/2018 04:21:16</publishTime>
+    </File>
+    <File Include="fonts/montserrat/montserrat-semibold-webfont.woff">
+      <publishTime>10/19/2018 04:21:16</publishTime>
+    </File>
+    <File Include="fonts/montserrat/montserrat-semibold-webfont.woff2">
+      <publishTime>10/19/2018 04:21:16</publishTime>
+    </File>
+    <File Include="fonts/montserrat/montserrat-thin-webfont.woff">
+      <publishTime>10/19/2018 04:21:16</publishTime>
+    </File>
+    <File Include="fonts/montserrat/montserrat-thin-webfont.woff2">
+      <publishTime>10/19/2018 04:21:16</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>10/19/2018 04:17:11</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.js">
+      <publishTime>10/19/2018 04:17:26</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.min.js">
+      <publishTime>10/19/2018 04:17:26</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.min.map">
+      <publishTime>10/19/2018 04:17:26</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.slim.js">
+      <publishTime>10/19/2018 04:17:26</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.slim.min.js">
+      <publishTime>10/19/2018 04:17:26</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.slim.min.map">
+      <publishTime>10/19/2018 04:17:26</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>10/19/2018 04:17:30</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>10/19/2018 04:17:30</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>10/19/2018 04:17:31</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>10/19/2018 04:17:30</publishTime>
+    </File>
+    <File Include="Scripts/main.js">
+      <publishTime>10/19/2018 04:20:43</publishTime>
+    </File>
+    <File Include="Scripts/modernizr.js">
+      <publishTime>10/19/2018 04:20:43</publishTime>
+    </File>
+    <File Include="Scripts/pace.min.js">
+      <publishTime>10/19/2018 04:20:43</publishTime>
+    </File>
+    <File Include="Scripts/plugins.js">
+      <publishTime>10/19/2018 04:20:43</publishTime>
+    </File>
+    <File Include="Views/Home/About.cshtml">
+      <publishTime>10/19/2018 04:17:11</publishTime>
+    </File>
+    <File Include="Views/Home/Contact.cshtml">
+      <publishTime>10/19/2018 04:17:11</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>10/19/2018 04:27:48</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>10/19/2018 04:17:11</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>10/19/2018 04:27:18</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>10/19/2018 04:17:11</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>10/19/2018 04:17:11</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/19/2018 04:34:02</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,9 @@
+.vs
+
+bin
+obj
+packages
+
+node_modules
+dist
+out-tsc
